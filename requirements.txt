@@ -1,0 +1,15 @@
+# Core Dependencies for API interaction and environment management
+openai>=1.0.0
+python-dotenv>=1.0.0
+
+# Structured Output Engine (as per README)
+instructor>=1.0.0
+pydantic>=2.0.0
+
+# Multi-Provider Integration (as per README)
+anthropic>=0.20.0
+
+# Future Agentic Workflow Dependencies (as per README)
+# langgraph
+# crewai
+# langsmith

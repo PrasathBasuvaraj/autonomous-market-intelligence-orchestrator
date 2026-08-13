@@ -29,8 +29,47 @@ This repository tracks a 6-month journey from core foundational tooling to an el
 To ensure a reproducible and secure development environment, follow these steps:
 
 1.  **Clone the Repository:**
-2.  **Set Up Environment:**
-3.  **Configure Secrets:** Create a `.env` file and add your provider keys (OpenAI, Anthropic, etc.).
+
+    ```sh
+    git clone https://github.com/your-username/autonomous-market-intelligence-orchestrator.git
+    cd autonomous-market-intelligence-orchestrator
+    ```
+
+2.  **Configure Secrets:**
+    Create a `.env` file in the project root. This file is used to securely store your API keys and is ignored by Git.
+
+    ```sh
+    cp .env.example .env
+    ```
+
+    Now, edit the `.env` file and add your provider keys (e.g., `OPENAI_API_KEY`).
+
+3.  **Environment Setup and Management:**
+    This project uses a `venv` for dependency isolation, ensuring that project packages do not conflict with other projects.
+    - **Create & Activate the Environment:**
+
+      ```sh
+      # Create the virtual environment
+      python3 -m venv venv
+
+      # Activate it (for macOS/Linux)
+      source venv/bin/activate
+      ```
+
+      _Once activated, your shell prompt will be prefixed with `(venv)`._
+
+    - **Install/Update Dependencies:**
+
+      ```sh
+      # Use pip to install all required packages
+      python -m pip install -r requirements.txt
+      ```
+
+    - **Deactivating the Environment:**
+      When you are finished working on the project, you can deactivate the environment.
+      ```sh
+      deactivate
+      ```
 
 ## 🧪 Current Milestone: Concurrent Stock Researcher
 
