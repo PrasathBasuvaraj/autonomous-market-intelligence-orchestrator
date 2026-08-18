@@ -1,0 +1,35 @@
+[
+    {
+        "ticker": "AAPL",
+        "trade_signal": "BUY",
+        "confidence_score": 0.8,
+        "key_news_summary": [
+            "Apple announces new product lineup",
+            "AAPL stock price reaches all-time high",
+            "Revenue forecast for next quarter is positive"
+        ],
+        "reasoning": "Positive announcements and strong financial outlook"
+    },
+    {
+        "ticker": "TSLA",
+        "trade_signal": "BUY",
+        "confidence_score": 0.8,
+        "key_news_summary": [
+            "Tesla surpasses Apple to become the most valuable US company",
+            "Elon Musk announces plans for Tesla's humanoid robot",
+            "Tesla reports record vehicle deliveries for Q3"
+        ],
+        "reasoning": "Tesla has shown strong performance recently, surpassing Apple in market value and reporting record deliveries. Elon Musk's vision for a Tesla robot also indicates long-term growth potential."
+    },
+    {
+        "ticker": "NVDA",
+        "trade_signal": "BUY",
+        "confidence_score": 0.85,
+        "key_news_summary": [
+            "NVDA announces record revenue in Q3 2021",
+            "NVDA launches new gaming GPU lineup",
+            "NVDA partners with an AI startup for autonomous driving technology"
+        ],
+        "reasoning": "NVDA has shown strong performance with record revenue and new product launches, indicating growth potential. The partnership in AI for autonomous driving also presents long-term opportunities."
+    }
+]
