@@ -1,0 +1,35 @@
+[
+    {
+        "ticker": "AAPL",
+        "trade_signal": "HOLD",
+        "confidence_score": 0.6,
+        "key_news_summary": [
+            "Apple continues to see steady iPhone demand in key markets, though growth in China remains a concern amid competition from local manufacturers like Huawei.",
+            "Apple's ongoing investment in AI features (Apple Intelligence) across its device ecosystem is being closely watched by investors as a potential growth catalyst for upgrade cycles.",
+            "Regulatory scrutiny in the EU and US regarding App Store practices and antitrust concerns continues to pose a risk to Apple's services revenue segment."
+        ],
+        "reasoning": "AAPL shows a balanced risk-reward profile at current levels. Services revenue continues to grow and provides margin support, while hardware demand shows mixed signals with softness in China offset by resilience in other regions. The rollout of AI-driven features presents a potential upside catalyst for future upgrade cycles, but near-term regulatory headwinds (antitrust, App Store fee disputes) and premium valuation levels warrant caution. Absent a clear near-term catalyst to justify a directional bet, a HOLD is recommended with moderate confidence pending further clarity on AI monetization and China sales trends."
+    },
+    {
+        "ticker": "TSLA",
+        "trade_signal": "HOLD",
+        "confidence_score": 0.55,
+        "key_news_summary": [
+            "Tesla's Q4 deliveries and production numbers came in roughly in line with lowered expectations, easing fears of a sharper demand slowdown",
+            "Ongoing price cuts and incentives across major markets (US, China, Europe) continue to pressure automotive gross margins",
+            "Elon Musk's continued focus on FSD/robotaxi and AI initiatives (Optimus, Dojo) keeps long-term growth narrative alive despite near-term earnings volatility"
+        ],
+        "reasoning": "TSLA's near-term fundamentals are mixed: delivery and margin pressures from aggressive pricing strategy are offset by optimism around AI/robotaxi initiatives and cost efficiencies from new manufacturing processes (e.g., Cybertruck ramp, 4680 cells). Valuation remains rich relative to traditional automakers, pricing in significant future growth from autonomy and energy storage businesses that have yet to be fully realized. Given the balance of near-term margin headwinds against long-term optionality in AI and autonomous driving, a HOLD stance is warranted until clearer catalysts (FSD regulatory approval, margin stabilization, or a definitive robotaxi reveal/launch) emerge to shift the risk/reward more decisively toward BUY or SELL."
+    },
+    {
+        "ticker": "NVDA",
+        "trade_signal": "BUY",
+        "confidence_score": 0.78,
+        "key_news_summary": [
+            "NVIDIA continues to see robust demand for its Blackwell and Hopper GPU architectures from hyperscalers and enterprise AI customers, supporting strong data center revenue growth.",
+            "Recent quarterly earnings beat consensus estimates on both revenue and EPS, with management guiding for continued strong demand into the next quarters despite supply constraints.",
+            "Geopolitical and export control developments (e.g., restrictions on advanced chip sales to certain markets like China) remain a key overhang, creating periodic volatility in the stock despite otherwise strong fundamentals."
+        ],
+        "reasoning": "NVDA remains the dominant leader in AI accelerator chips, benefiting from sustained hyperscaler capex on AI infrastructure and a broadening customer base beyond just the largest cloud providers. Demand for Blackwell-generation GPUs continues to outstrip supply, supporting pricing power and margin strength. While valuation is elevated relative to historical norms and regulatory/export risks (particularly related to China) introduce headline risk, the underlying growth trajectory, expanding software/services ecosystem (CUDA, enterprise AI platforms), and durable competitive moat justify a BUY signal. Confidence is tempered slightly below very high levels due to valuation sensitivity to any deceleration in AI capex growth and ongoing geopolitical/export uncertainty."
+    }
+]

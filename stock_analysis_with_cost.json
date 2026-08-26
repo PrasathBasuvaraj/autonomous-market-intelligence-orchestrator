@@ -1,0 +1,59 @@
+{
+    "session_summary": {
+        "total_stocks_processed": 3,
+        "total_usd_spend": 0.000257
+    },
+    "results": [
+        {
+            "ticker": "AAPL",
+            "trade_signal": "HOLD",
+            "confidence_score": 0.75,
+            "key_news_summary": [
+                "Apple reported record revenue in Q4 2023, exceeding analysts' expectations.",
+                "Recent supply chain improvements could lead to better product availability for the holiday season.",
+                "Analysts remain cautious about demand in key markets, citing economic uncertainties."
+            ],
+            "reasoning": "Apple's recent earnings report indicates strong performance, though economic concerns may impact future sales.",
+            "cost_metadata": {
+                "model_used": "gpt-4o-mini",
+                "prompt_tokens": 213,
+                "completion_tokens": 90,
+                "usd_cost": 8.6e-05
+            }
+        },
+        {
+            "ticker": "TSLA",
+            "trade_signal": "HOLD",
+            "confidence_score": 0.7,
+            "key_news_summary": [
+                "Tesla reports record Q3 2023 vehicle deliveries, exceeding expectations.",
+                "CEO Elon Musk hints at new technological advancements in upcoming product launches.",
+                "Market analysts express concerns over increased competition in the electric vehicle sector."
+            ],
+            "reasoning": "Tesla's recent record vehicle deliveries show strong demand, but potential competition and market dynamics suggest a cautious approach.",
+            "cost_metadata": {
+                "model_used": "gpt-4o-mini",
+                "prompt_tokens": 213,
+                "completion_tokens": 89,
+                "usd_cost": 8.5e-05
+            }
+        },
+        {
+            "ticker": "NVDA",
+            "trade_signal": "BUY",
+            "confidence_score": 0.85,
+            "key_news_summary": [
+                "NVIDIA reports record revenue in Q3 2023 driven by AI demand",
+                "NVIDIA expands partnership with major cloud service providers",
+                "Analysts raise price targets following strong earnings reports"
+            ],
+            "reasoning": "NVIDIA's strong earnings and growing demand for AI technology contribute to a bullish outlook. Increased partnerships and market expansion suggest continued growth potential.",
+            "cost_metadata": {
+                "model_used": "gpt-4o-mini",
+                "prompt_tokens": 213,
+                "completion_tokens": 90,
+                "usd_cost": 8.6e-05
+            }
+        }
+    ]
+}

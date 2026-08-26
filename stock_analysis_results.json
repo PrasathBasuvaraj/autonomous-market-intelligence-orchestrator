@@ -4,32 +4,32 @@
         "trade_signal": "BUY",
         "confidence_score": 0.8,
         "key_news_summary": [
-            "Apple announces new product lineup",
-            "AAPL stock price reaches all-time high",
-            "Revenue forecast for next quarter is positive"
+            "Apple introduces new iPhone models with enhanced features",
+            "Apple expands its services with the launch of Apple TV+",
+            "Strong quarterly financial results reported by Apple"
         ],
-        "reasoning": "Positive announcements and strong financial outlook"
+        "reasoning": "AAPL has recently launched new products and services, coupled with positive financial performance, indicating a potential growth opportunity for investors."
     },
     {
         "ticker": "TSLA",
         "trade_signal": "BUY",
         "confidence_score": 0.8,
         "key_news_summary": [
-            "Tesla surpasses Apple to become the most valuable US company",
-            "Elon Musk announces plans for Tesla's humanoid robot",
-            "Tesla reports record vehicle deliveries for Q3"
+            "Tesla unveils new electric vehicle with longer range",
+            "Elon Musk announces plans for new Gigafactory",
+            "Tesla stock jumps after positive earnings report"
         ],
-        "reasoning": "Tesla has shown strong performance recently, surpassing Apple in market value and reporting record deliveries. Elon Musk's vision for a Tesla robot also indicates long-term growth potential."
+        "reasoning": "Tesla has shown strong performance with new product developments, expansion plans, and positive financial results, indicating a potential uptrend in the stock."
     },
     {
         "ticker": "NVDA",
         "trade_signal": "BUY",
         "confidence_score": 0.85,
         "key_news_summary": [
-            "NVDA announces record revenue in Q3 2021",
-            "NVDA launches new gaming GPU lineup",
-            "NVDA partners with an AI startup for autonomous driving technology"
+            "Nvidia announces record quarterly revenue",
+            "Partnership with Mercedes-Benz for AI-powered autonomous driving technology",
+            "Strong demand for gaming GPUs in the market"
         ],
-        "reasoning": "NVDA has shown strong performance with record revenue and new product launches, indicating growth potential. The partnership in AI for autonomous driving also presents long-term opportunities."
+        "reasoning": "Nvidia has shown exceptional performance with record revenue and strong demand across its key segments. The recent partnership with Mercedes-Benz highlights the company's expansion into AI technology for autonomous vehicles, further solidifying its position in the market."
     }
 ]
